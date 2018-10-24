@@ -49,7 +49,7 @@ Hugo passes reasonable default arguments to these external helpers by default:
 
 - `asciidoc`: `--no-header-footer --safe -`
 - `asciidoctor`: `--no-header-footer --safe --trace -`
-- `rst2html`: `--leave-comments --initial-header-level=2`
+- `rst2html`: `--leave-comments --initial-header-level=2 --syntax-highlight=short`
 - `pandoc`: `--mathjax`
 
 {{% warning "Performance of External Helpers" %}}
